@@ -1,0 +1,6 @@
+1. Get actual BTC price in PLN
+2. Send it to my Whats app
+3. Store values in sql_lite
+4. Make FastAPI for educational purposes
+5. Use this API to change config of notification
+6. Use API to configure app form web?

@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "btc-notifier"
+version = "0.1.0"
+description = "Simple BTC price notification script which send whatsapp msg when price reach definied point"
+authors = ["Adam Wawrzyniak <adam.wawrzyniak@bigstar.pl>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pydantic = "^2.6.1"
+pywhatkit = "^5.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
