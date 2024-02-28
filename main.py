@@ -4,6 +4,7 @@ from notofications import phone_notifier
 
 load_dotenv()
 
+
 def main():
     phone_notifier(btc_price=price_calculate())
     return 0
